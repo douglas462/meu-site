@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço do Aluno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📚 Espaço do Aluno</h1>
+    <p>Seu portal de estudos — simples, prático e completo</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#avisos">Avisos</a></li>
+        <li><a href="#materias">Matérias</a></li>
+        <li><a href="#calendario">Calendário</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="inicio">
+        <h2>Bem-vindo(a)! 👋</h2>
+        <p>Este é o seu espaço para acompanhar avisos, acessar conteúdos das matérias, conferir datas importantes e tirar dúvidas. Tudo organizado em um só lugar.</p>
+    </section>
+
+    <section id="avisos">
+        <h2>📢 Avisos Recentes</h2>
+        <div class="aviso">
+            <h3>Prova de Matemática — 15/10</h3>
+            <p>Revisão na aula de hoje. Estude os capítulos 3 e 4!</p>
+        </div>
+        <div class="aviso">
+            <h3>Entrega de Trabalhos — 20/10</h3>
+            <p>Data limite para entrega do projeto de Ciências.</p>
+        </div>
+    </section>
+
+    <section id="materias">
+        <h2>📖 Matérias</h2>
+        <div class="grade">
+            <div class="card">
+                <h3>Matemática</h3>
+                <p>Frações, equações e geometria.</p>
+            </div>
+            <div class="card">
+                <h3>Português</h3>
+                <p>Gramática, redação e interpretação de texto.</p>
+            </div>
+            <div class="card">
+                <h3>Ciências</h3>
+                <p>Ecologia, corpo humano e estados da matéria.</p>
+            </div>
+            <div class="card">
+                <h3>História</h3>
+                <p>Brasil Colônia, independência e república.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calendario">
+        <h2>📅 Calendário</h2>
+        <table>
+            <tr>
+                <th>Data</th>
+                <th>Evento</th>
+            </tr>
+            <tr>
+                <td>15/10</td>
+                <td>Prova de Matemática</td>
+            </tr>
+            <tr>
+                <td>18/10</td>
+                <td>Prova de Português</td>
+            </tr>
+            <tr>
+                <td>20/10</td>
+                <td>Entrega — Projeto de Ciências</td>
+            </tr>
+            <tr>
+                <td>25/10</td>
+                <td>Apresentação de História</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contato">
+        <h2>💬 Envie sua Dúvida</h2>
+        <form action="#">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Escreva sua dúvida ou recado..."></textarea>
+            
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Espaço do Aluno — © 2026 | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
